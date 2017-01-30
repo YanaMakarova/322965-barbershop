@@ -1,191 +1,201 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <div class="container">
-        <div class="logo">Barbershop</div>
-        <nav class="main-nav">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Барбершоп</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <img src="img/bsh-item/logo.png" alt="барбершоп">
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Прайс-лист</a>
+          </li>
+          <li>
+            <a href="#">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a class="login" href="#">Вход</a>
+      </div>
+    </div>
+    <main class="container">
+      <section class="content-title">
+        <h1>Средства по уходу</h1>
+        <nav class="second-nav">
           <ul>
             <li>
-              <a href="#">Информация</a>
-            </li>
-            <li>
-              <a href="#">Новости</a>
-            </li>
-            <li>
-              <a href="#">Прайс-лист</a>
+              <a href="#">Главная</a>
             </li>
             <li>
               <a href="#">Магазин</a>
             </li>
             <li>
-              <a href="#">Контакты</a>
+              <a href="#">Средства по уходу</a>
             </li>
           </ul>
         </nav>
-        <div class="user-block">
-          <a class="login" href="#">Вход</a>
-        </div>
-      </div>
-<main class="container">
-      <section class="content-title">
-      <h1>Средства по уходу</h1>
-<nav class="second-nav">
-  <ul>
-    <li>
-      <a href="#">Главная</a>
-    </li>
-    <li>
-      <a href="#">Магазин</a>
-    </li>
-    <li>
-      <a href="#">Средства по уходу</a>
-    </li>
-  </ul>
-</nav>
-</section>
-<section class="content">
-  <div class="content-maker">
-  <h2>Производители:</h2>
-<form action="#" method="post">
-  <label>
+      </section>
+      <section class="content">
+        <div class="content-maker">
+          <h2>Производители:</h2>
+          <form action="#" method="post">
+            <label>
     <input type="checkbox" name="maker" checked> Baxter of California
   </label>
-  <label>
+            <label>
     <input type="checkbox" name="maker"> Mr Natty
   </label>
-  <label>
+            <label>
     <input type="checkbox" name="maker" checked> Suavesito
   </label>
-  <label>
+            <label>
     <input type="checkbox" name="maker"> Malin+Goetz
   </label>
-  <label>
+            <label>
     <input type="checkbox" name="maker"> Murrays
   </label>
-  <label>
+            <label>
     <input type="checkbox" name="maker" checked> American crew
   </label>
-</form>
-</div>
-<div class="content-group">
-<h2>Группы товаров</h2>
-<form action="#" method="post">
-  <label>
+          </form>
+        </div>
+        <div class="content-group">
+          <h2>Группы товаров</h2>
+          <form action="#" method="post">
+            <label>
     <input type="radio" name="1" value="shavestuff"> Бритвенные принадлежности
 </label>
-  <label>
+            <label>
     <input type="radio" name="2" value="carestuff" checked> Cредства для ухода
 </label>
-<label>
+            <label>
   <input type="radio" name="1" value="accessories"> Аксессуары
 </label>
-<div class="show">
-  <a href="#">Показать</a>
-</div>
-</form>
-</div>
-</section>
-<section class="content-items">
-  <article class="item">
-    <figure class="item-content">
-      <a href="#"><img src="http://placehold.it/150x100" alt="1"></a>
-    </figure>
-    <a href="#"><p>Набор для путешествий<br>
-      "Baxter of California"</p></a>
-      <div class="price">
-        <div class="price-item">2900 руб
+            <div class="show">
+              <a href="#">Показать</a>
+            </div>
+          </form>
         </div>
-        <a class="buy" href="#">Купить</a>
-      </div>
-  </article>
-  <article class="item">
-    <figure class="item-content">
-      <a href="#"><img src="http://placehold.it/150x100" alt="2"></a>
-    </figure>
-    <a href="#"><p>Увлажняющий кондиционер<br>
-      "Baxter of California"</p></a>
-      <div class="price">
-        <div class="price-item">750 руб
-      </div>
-      <a class="buy" href="#">Купить</a>
-    </div>
-  </article>
-  <article class="item">
-    <figure class="item-content">
-      <a href="#"><img src="http://placehold.it/150x100" alt="3"></a>
-    </figure>
-    <a href="#"><p>Гель для волос <br>
-      "Suavesito"</p></a>
-      <div class="price">
-        <div class="price-item">290 руб
-        </div>
-        <a class="buy" href="#">Купить</a>
-      </div>
-    </article>
-    <article class="item">
-      <figure class="item-content">
-        <a href="#"><img src="http://placehold.it/150x100" alt="4"></a>
-      </figure>
-      <a href="#"><p>Глина для укладки волос <br>
-       "American crew"</p></a>
-       <div class="price">
-         <div class="price-item">500 руб
-         </div>
-        <a class="buy" href="#">Купить</a>
-      </div>
-    </article>
-    <article class="item">
-      <figure class="item-content">
-        <a href="#"><img src="http://placehold.it/150x100" alt="5"></a>
-      </figure>
-      <a href="#"><p>Гель для укладки волос <br>
-        "American crew"</p></a>
-        <div class="price">
-          <div class="price-item">300 руб
-         </div>
-         <a class="buy" href="#">Купить</a>
-       </div>
-     </article>
-     <article class="item">
-       <figure class="item-content">
-         <a href="#"><img src="http://placehold.it/150x100" alt="6"></a>
-       </figure>
-       <a href="#"><p>Набор для бритья<br>
-        "Baxter of California"</p></a>
-        <div class="price">
-          <div class="price-item">3900 руб
+      </section>
+      <section class="content-items">
+        <article class="item">
+          <figure class="item-content">
+            <a href="#"><img src="img/bsh-shop/layer-38.jpg" alt="1"></a>
+          </figure>
+          <a href="#">
+            <p>Набор для путешествий<br> "Baxter of California"</p>
+          </a>
+          <div class="price">
+            <div class="price-item">2900 руб
+            </div>
+            <a class="buy" href="#">Купить</a>
           </div>
-          <a class="buy" href="#">Купить</a>
-        </div>
-      </article>
-      <ul class="items-btn">
-        <li>
-          <a href="#"><button class="btn1" type="button">1</button></a>
-        </li>
-        <li>
-          <button class="btn2" type="button">2</button>
-        </li>
-        <li>
-          <a href="#"><button class="btn3" type="button">3</button></a>
-        </li>
-        <li>
-          <a href="#"><button class="btn4" type="button">4</button></a>
-        </li>
-      </div>
-    </section>
-  </main>
-<footer class="main-footer">
-  <div class="container">
-    <section class="footer-contacts">
-          Барбершоп «Бородинский»<br>
-          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-          <a href="#">Как нас найти?</a><br>
-          Телефон: +7 (812) 666-02-66
+        </article>
+        <article class="item">
+          <figure class="item-content">
+            <a href="#"><img src="img/bsh-shop/layer-30.jpg" alt="2"></a>
+          </figure>
+          <a href="#">
+            <p>Увлажняющий кондиционер<br> "Baxter of California"</p>
+          </a>
+          <div class="price">
+            <div class="price-item">750 руб
+            </div>
+            <a class="buy" href="#">Купить</a>
+          </div>
+        </article>
+        <article class="item">
+          <figure class="item-content">
+            <a href="#"><img src="img/bsh-shop/layer-39.jpg" alt="3"></a>
+          </figure>
+          <a href="#">
+            <p>Гель для волос <br> "Suavesito"
+            </p>
+          </a>
+          <div class="price">
+            <div class="price-item">290 руб
+            </div>
+            <a class="buy" href="#">Купить</a>
+          </div>
+        </article>
+        <article class="item">
+          <figure class="item-content">
+            <a href="#"><img src="img/bsh-shop/layer-32.jpg" alt="4"></a>
+          </figure>
+          <a href="#">
+            <p>Глина для укладки волос <br> "American crew"</p>
+          </a>
+          <div class="price">
+            <div class="price-item">500 руб
+            </div>
+            <a class="buy" href="#">Купить</a>
+          </div>
+        </article>
+        <article class="item">
+          <figure class="item-content">
+            <a href="#"><img src="img/bsh-shop/layer-33.jpg" alt="5"></a>
+          </figure>
+          <a href="#">
+            <p>Гель для укладки волос <br> "American crew"</p>
+          </a>
+          <div class="price">
+            <div class="price-item">300 руб
+            </div>
+            <a class="buy" href="#">Купить</a>
+          </div>
+        </article>
+        <article class="item">
+          <figure class="item-content">
+            <a href="#"><img src="img/bsh-shop/layer-42.jpg" alt="6"></a>
+          </figure>
+          <a href="#">
+            <p>Набор для бритья<br> "Baxter of California"</p>
+          </a>
+          <div class="price">
+            <div class="price-item">3900 руб
+            </div>
+            <a class="buy" href="#">Купить</a>
+          </div>
+        </article>
+        <ul class="items-btn">
+          <li>
+            <a href="#"><button class="btn1" type="button">1</button></a>
+          </li>
+          <li>
+            <button class="btn2" type="button">2</button>
+          </li>
+          <li>
+            <a href="#"><button class="btn3" type="button">3</button></a>
+          </li>
+          <li>
+            <a href="#"><button class="btn4" type="button">4</button></a>
+          </li>
+          </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br> Телефон: +7 (812) 666-02-66
         </section>
         <section class="footer-social">
           <p>Давайте дружить!</p>
@@ -199,5 +209,6 @@
         </section>
       </div>
     </footer>
-  </body>
+</body>
+
 </html>
