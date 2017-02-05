@@ -16,9 +16,15 @@ h2 {
       padding: 0 10px;
       margin: 0 auto;
 }
-.main-navigation {
+.logo {
+    float: left;
+    width: 140px;
+    margin-right: 20px;
+    }
+.main-nav {
       float: left;
-      width: 780px;
+      width: 620px;
+      margin-right: 20px;
 
 }
 .user-block {
@@ -26,9 +32,72 @@ h2 {
   width: 140px;
 }
 
+
+.main-header {
+  margin-bottom: 54px;
+}
+
+.content-title {
+    margin-bottom: 54px;
+    }
+.content-maker {
+    float: left;
+    width: 190px;
+    margin-bottom: 54px
+
+    }
+.content-group {
+    float: left;
+    width: 190px;
+
+    }
+.content {
+    float: left;
+    width: 190px;
+    margin-right: 20px;
+    }
+.content-items {
+    float: right;
+    width: 720px;
+    margin-bottom: 45px;
+    }
+
+.item {
+    display: inline-block;
+    width: 220px;
+    margin-right: 20px;
+    vertical-align: top;
+    }
+.item:nth-child(3n) {
+    margin-right: 0;
+}
+
 .clearfix::after {
   content: "";
-
   display: table;
   clear: both;
 }
+.items-btn {
+    float: left;
+}
+.main-footer {
+    margin-top: 50px;
+padding-top: 54px;
+  padding-bottom: 40px;
+    }
+.footer-contacts {
+    float: left;
+    width: 310px;
+    margin-right: 90px;
+    }
+.footer-social {
+    float: left;
+    width: 140px;
+    margin-right: 260px;
+    }
+
+.footer-copyright {
+    float: right;
+    margin-right: 0;
+    width: 140px;
+    }
