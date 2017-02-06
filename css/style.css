@@ -11,6 +11,9 @@ h1 {
 h2 {
       font-size: 24px;
 }
+ul {
+  padding: 0;
+}
 .container {
       width: 940px;
       padding: 0 10px;
@@ -80,12 +83,15 @@ margin-top: 50px;
 .item {
     display: inline-block;
     width: 220px;
-    margin-right: 20px;
+    margin-left: 20px;
     vertical-align: top;
 
     }
-.item:nth-child(3n) {
-    margin-right: 0;
+.item:first-child {
+        margin-left: 0;
+    }
+.item:nth-child(4n) {
+    margin-left: 0;
 }
 
 .clearfix::after {
@@ -115,7 +121,7 @@ padding-top: 54px;
     }
 .footer-social {
     float: left;
-    margin-right: 260px;
+    margin-right: 200px;
     }
 .footer-social a {
   display: inline-block;
@@ -139,16 +145,17 @@ padding-top: 54px;
   width: 460px;
   float: left;
 }
+
 .preview-list {
   width: 460px;
 }
 .preview-item {
   display: inline-block;
   width: 140px;
-  margin-right: 10px;
+  margin-left: 20px;
 }
-.preview-item:nth-child(3n) {
-    margin-right: 0;
+.preview-item:nth-child(1n) {
+    margin-left: 0;
 }
 .content-right {
     float: right;
