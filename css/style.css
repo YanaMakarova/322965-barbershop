@@ -110,12 +110,11 @@ padding-top: 54px;
     }
 .footer-contacts {
     float: left;
-    width: 310px;
+
     margin-right: 90px;
     }
 .footer-social {
     float: left;
-    width: 140px;
     margin-right: 260px;
     }
 .footer-social a {
@@ -124,5 +123,56 @@ padding-top: 54px;
 .footer-copyright {
     float: right;
     margin-right: 0;
-    width: 140px;
+
     }
+.content-title2 {
+  margin-top: 55px;
+}
+.breadcrumbs {
+  float: left;
+}
+.breadcrumbs-item {
+  display: inline-block;
+  margin-bottom: 56px;
+}
+.content-left {
+  width: 460px;
+  float: left;
+}
+.preview-list {
+  width: 460px;
+}
+.preview-item {
+  display: inline-block;
+  width: 140px;
+  margin-right: 10px;
+}
+.preview-item:nth-child(3n) {
+    margin-right: 0;
+}
+.content-right {
+    float: right;
+    width: 390px;
+}
+.info-item {
+  float: left;
+
+}
+.info-name {
+  float: right;
+  margin-bottom: 38px;
+}
+.description {
+  float: left;
+  margin-bottom: 40px;
+}
+.price {
+    margin-bottom: 66px;
+}
+.item-info-title {
+  margin-bottom: 40px;
+}
+
+.item-info-description li {
+display: block;
+}
