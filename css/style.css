@@ -1,15 +1,15 @@
 body {
-      font-size: 14pt;
+      font-size: 14px;
       color: black;
       line-height: 24px;
       font-weight: bold;
       font-family: "PT Sans";
 }
 h1 {
-      font-size: 30pt;
+      font-size: 30px;
 }
 h2 {
-      font-size: 24pt;
+      font-size: 24px;
 }
 .container {
       width: 940px;
@@ -27,6 +27,9 @@ h2 {
       margin-right: 20px;
 
 }
+.main-nav li {
+display: inline-block;
+}
 .user-block {
   float: right;
   width: 140px;
@@ -34,32 +37,44 @@ h2 {
 
 
 .main-header {
+  vertical-align: middle;
   margin-bottom: 54px;
 }
 
 .content-title {
     margin-bottom: 54px;
     }
+.second-nav li {
+display: inline-block;
+}
 .content-maker {
     float: left;
     width: 190px;
     margin-bottom: 54px
 
     }
+label {
+  display: block;
+}
 .content-group {
     float: left;
     width: 190px;
 
     }
+.show {
+margin-top: 50px;
+}
 .content {
     float: left;
-    width: 190px;
+    width: 200px;
     margin-right: 20px;
+
     }
 .content-items {
     float: right;
-    width: 720px;
-    margin-bottom: 45px;
+    width: 710px;
+    margin-bottom: 49px;
+    margin-right: 0;
     }
 
 .item {
@@ -67,6 +82,7 @@ h2 {
     width: 220px;
     margin-right: 20px;
     vertical-align: top;
+
     }
 .item:nth-child(3n) {
     margin-right: 0;
@@ -78,8 +94,15 @@ h2 {
   clear: both;
 }
 .items-btn {
+  margin-top:45px;
     float: left;
+
+
 }
+.items-btn li {
+  display: inline-block;
+}
+
 .main-footer {
     margin-top: 50px;
 padding-top: 54px;
@@ -95,7 +118,9 @@ padding-top: 54px;
     width: 140px;
     margin-right: 260px;
     }
-
+.footer-social a {
+  display: inline-block;
+}
 .footer-copyright {
     float: right;
     margin-right: 0;
